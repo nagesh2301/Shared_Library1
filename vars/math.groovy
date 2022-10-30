@@ -17,3 +17,8 @@ def div(a,b)
 {
 echo "div of ${a} and ${b} is ${a/b}"
 }
+
+def newGit(repo)
+{
+ git "${repo}"
+}
